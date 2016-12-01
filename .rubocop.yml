@@ -1,0 +1,14 @@
+# Please see the following for configuration options:
+#   https://github.com/bbatsov/rubocop
+#   https://github.com/nevir/rubocop-rspec
+AllCops:
+  TargetRubyVersion: 2.3
+
+Rails:
+  Enabled: true
+
+Style/MultilineMethodCallBraceLayout:
+  EnforcedStyle: same_line
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
