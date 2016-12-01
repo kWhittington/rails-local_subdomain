@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require './lib/rails/local_subdomain'
+require 'rails/local_subdomain'
 
 module Rack
   # Override the Rack::Handler to bind to 0.0.0.0 which is required to support
