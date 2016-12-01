@@ -15,7 +15,7 @@ module Rails
     # Should be monkey-patched to configure which Rails environments
     # will have lvh.me subdomain support.
     def self.enabled_environments
-      %w(develop)
+      %w(development test)
     end
 
     def self.enabled_in?(env)
