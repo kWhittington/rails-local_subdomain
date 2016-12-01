@@ -29,7 +29,7 @@ module Rack
         end
 
         def self.message(port)
-          Logger.new(STDOUT).info(
+          ::Logger.new(STDOUT).info(
             "Binding 'localhost' to '0.0.0.0' for "\
             "http://lvh.me:#{port}/ support")
         end
