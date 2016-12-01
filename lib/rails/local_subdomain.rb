@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-require 'lib/rails/local_subdomain/version'
-require 'lib/rails/local_subdomain/rack/handler'
+require 'rails/local_subdomain/version'
+require 'rails/local_subdomain/rack/handler'
 
 module Rails
   # Redirects to a specified domain (or `'lvh.me'` if not provided) when Rails
