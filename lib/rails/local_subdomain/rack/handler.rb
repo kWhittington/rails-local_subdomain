@@ -19,7 +19,8 @@ module Rack
         def self.run(app, options = {})
           env = (options[:environment] || Rails.env)
 
-          if options[:Host] == 'localhost' && LocalSubdomain.enabled_in?(env)
+          if options[:Host] == 'localhost' &&
+             Rails::LocalSubdomain.enabled_in?(env)
             message(options[:Port])
             options[:Host] = '0.0.0.0'
           end
