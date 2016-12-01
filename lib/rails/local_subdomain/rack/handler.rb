@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require 'logger'
 require 'rails/local_subdomain'
 
 module Rack
